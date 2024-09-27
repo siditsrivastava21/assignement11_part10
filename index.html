@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-section{
+            width:auto;
+            height: 60px;
+            /* background-image:r-gradient(blue , red); */
+             background-image: linear-gradient(to right ,#1851BB, #06060E);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo img{
+            width:180px;
+            padding-left:50px
+        }
+
+        .new{
+            width: 50px;
+            height: 10px;
+            background-color:#FFE797;
+            padding-left: 5px;
+            padding-right: 5px;
+            color: black;
+            border-radius: 30px;
+            margin-left: 5px;
+        }
+
+        .option ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            color: white;
+            font-size: 14px;
+            font-weight:bold;
+        }
+
+        .option ul li{
+            margin-right: 50px;
+        }
+
+        .sign_up_btn{
+            width:90px;
+            height: 35px;
+            background-color: #0066FF;
+            border: none;
+            border-radius: 5px;
+            color:white;
+            font-size: 13px;
+            font-weight:bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar-section">
+        <div class="logo">
+            <img src="./image/logo.png" alt="logo">
+        </div>
+        <div class="option">
+            <ul>
+                <li>Data Science & AI </li>
+                <li>B.Tech in Cs & AI <sup class="new">New</sup></i>
+                <li>Newton Edge</li>
+                <li>Refer & Earn</li>
+                <li>More <i class="fa-solid fa-angle-down"></i></li>
+                <li><button class="sign_up_btn">Sign Up</button></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
